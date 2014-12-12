@@ -25,6 +25,7 @@
     <preference name="android-installLocation" value="auto" />
     <preference name="SplashScreenDelay" value="10000" />
     <preference name="LoadUrlTimeoutValue" value="20000" />
+    <preference name="LoadingDialog" value=""/>
 
     <gap:plugin name="org.apache.cordova.battery-status" />
     <gap:plugin name="org.apache.cordova.camera" />
@@ -70,10 +71,7 @@
     <gap:splash gap:platform="ios" height="768" src="res/screen/ios/screen-ipad-landscape.png" width="1024" />
     <gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg" />
 
-    <feature name="SplashScreen">
-          <param name="android-package" value="org.apache.cordova.SplashScreen" />
-    </feature>
-    <preference name="LoadingDialog" value=""/>
+
 
     <access origin="*" />
 </widget>
