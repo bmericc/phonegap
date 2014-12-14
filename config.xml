@@ -28,6 +28,7 @@
     <preference name="SplashScreenDelay" value="10000" />
     <preference name="LoadUrlTimeoutValue" value="20000" />
     <preference name="LoadingDialog" value=""/>
+    <preference name="SplashScreen" value="splash" />
 
     <gap:plugin name="org.apache.cordova.battery-status" />
     <gap:plugin name="org.apache.cordova.camera" />
